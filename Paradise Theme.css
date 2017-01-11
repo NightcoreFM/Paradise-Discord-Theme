@@ -1,0 +1,205 @@
+//META{"name":"Paradise","description":"Theme based on Paradise","author":"Jamie","version":"1.13.05"}*//{}
+
+.app { background-image: url("https://i.imgur.com/RllQI2z.jpg") !important; background-size: cover !important; }
+.callout-backdrop { background: none !important; background-image: url("https://i.imgur.com/RllQI2z.jpg") !important; -webkit-transition: 0.3s all ease; -o-transition: 0.3s all ease; -moz-transition: 0.3s all ease; transition: 0.3s all ease; background-size: cover !important; -webkit-filter: brightness(50%); }
+
+.channels-wrap:after{
+  width: 100%;
+  height: 32px;
+  background: var(--a-black-light);
+  content: "Paradise v1.13.05 - By Jamie#3542";
+  color: #FFF;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 6px;
+  margin-top: 1px;
+}
+
+/* I have included a range of different fonts you can use*/
+
+@font-face{
+	font-family: 'ostrichsans';
+	src: url('https://dl.dropbox.com/s/hnsustpuxmsouzs/ostrichsans.woff?dl=0');
+	font-weight: 600;
+}
+
+@font-face{
+  font-family: 'ralewaythin';
+  src: url('https://dl.dropbox.com/s/j91j9w19x5wmj3l/ralewaythin.woff?dl=0');
+  font-weight: 500;
+}
+
+@font-face{
+  font-family: 'yellowtail';
+  src: url('https://dl.dropbox.com/s/j1byelj804jdj35/yellowtail.woff?dl=0');
+  font-weight: 600;
+}
+
+@font-face{
+  font-family: 'sansheavy';
+  src: url('https://dl.dropbox.com/s/dq1wbw6gym8zu3s/sansheavy.woff?dl=0');
+  font-weight: 900;
+}
+
+.guild-header header{                                                           
+    background-color:var(--a-black-dark);
+    box-shadow: none;
+    height: 50px;
+    padding: 0 20px;
+     font-family: 'yellowtail';
+}
+
+.message-group.compact .message .markup .user-name{                            
+     font-family: 'ralewaythin';
+    color: #CCC;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.message-group h2 strong{                           
+   font-family: 'sansheavy';
+    color: #CCC;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.theme-dark .friends-table .messages .divider:not(.red) span,
+.theme-dark .messages-wrapper .messages .divider:not(.red) span,
+.chat .divider.divider-red>span{                                                
+    color: var(--orange);
+    background:rgba(0,0,0,0.8);
+    border-left:1px solid var(--orange);
+     font-family: 'sansheavy';
+}
+
+.chat .new-messages-bar button:first-child,                                     
+.chat .new-messages-bar button:last-child{                                      
+    color: var(--white);
+    text-transform: none;
+    font-family: 'sansheavy';
+    font-size: 13px;
+    font-weight: normal;
+}
+
+body {
+	color: rgba(80, 80, 80, 0.2);
+	font-family: 'ostrichsans';
+	background: url(https://i.imgur.com/fGzrNFF.png) !important;
+	background-size: cover !important;
+}
+
+.links,
+.chat,
+.typing,
+.content,
+.private-channels,
+.divider-red span,
+.messages-wrapper,
+#voice-connection {
+  background: transparent !important;
+  font-family: 'sansheavy';
+}
+
+.guilds-wrapper { background:rgba(0,0,0,0.8) !important }
+
+.channels-wrap { background:rgba(0,0,0,0.8) }
+
+.content .flex-spacer { background:rgba(0,0,0,0.8) }
+
+.channel-members { background:rgba(0,0,0,0.92) !important }
+
+.guilds-wrapper, .private-channels, .channels-wrap, .search-bar, .account, .btn:not(.icon-logout):not(.icon-delete):not(.btn-primary):not(.create-role-button), #friends, .friends-header, .friends-table, .guild-header, header, .invite, .guild-channels, .scroller, .flex-spacer, .title-wrap, .messages-wrapper, .typing, .markup pre, .avatar-wrapper, #voice-connection, .guild-settings-modal-members {
+   background-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+.friends-row:hover, .friends-header > .tab-bar > .tab-bar-item:hover:not(.tab-bar-item-primary), .btn-friends, .channel-text.selected, .is-local-bot-message, .channel-textarea-inner, .callout-backdrop, .markup code.inline, 
+.markup pre code.hljs, #user-profile-modal > .scroller-wrap.fade > .scroller-guilds > .guild:hover > .roles > .scroller-wrap-fade > .scroller > ul > li:hover, .scroller > ul > li.selected, .scroller.channel-members > 
+.member:hover, .scroller-guild-channels > .channel:hover, .private-channels > .search-result:hover, .guilds-wrapper > .scroller-wrap > .scroller-guilds > .guild > div > .guild-inner, 
+.member.member-status-online-popout-open
+}
+
+.divider > span, .divider > div, .unread::before, .selected::before, .tooltip, .settings-header, .btn-primary, .tab-bar-item.selected:before, .btn.btn-primary, #user-profile-modal > header, .new-messages-bar, #user-profile-modal > footer, .region-select:hover > button, .popout-menu-item:hover, .guilds-wrapper > .scroller-wrap > .scroller.guilds > .guild.selected > div > .guild-inner {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    color: white !important;
+}
+
+.chat .title-wrap {
+   background-color: rgba(0, 0, 0, 0.8) !important;
+border-bottom: 1px solid transparent !important;
+}
+
+.channel-members {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.chat .title-wrap {
+   background-color: rgba(0, 0, 0, 0.8) !important;
+border-bottom: 1px solid transparent !important;
+}
+
+.chat .title-wrap {
+background:rgba(0,0,0,0.8) !important;
+border-bottom: 1px solid transparent !important;
+}
+
+.content .flex-spacer{
+  background:rgba('0, 0, 0, 0.12');
+}
+
+.channel-members {
+background:rgba(0,0,0,0.8) !important;
+}
+
+.chat .title-wrap {
+background:rgba(0,0,0,0.8) !important;
+border-bottom: 1px solid transparent !important;
+}
+
+.guild-channels .channel-text.selected {
+background: linear-gradient(45deg,rgba(0,200,255, 0.5) 50%,rgba(0,162,207,0.8));
+}
+
+.guilds-wrapper {
+  background:rgba(0,0,0,0.65) !important;
+}
+
+.channels-wrap {
+  background:rgba(0,0,0,0.55) ;
+}
+
+.content .flex-spacer {
+  background:rgba(0,0,0,0.65);
+}
+
+.channel-members {
+  background:rgba(0,0,0,0.55) !important;
+}
+
+.title-wrap {
+  background:rgba(0,0,0,0.55) !important;
+}
+
+textarea {
+  background:transparent !important;
+}
+
+.channel-textarea-inner {
+  background: rgba(23,23,23,0.2)  !important;
+    margin:0px 0px 0px;
+
+}
+
+.messages .message-group .markup .highlight {
+    background-color:rgba(35,35,35,1) !important;
+    color:#cccccc !important;
+  padding: 1px 4px;
+    border-radius: 8px;
+}
+
+.guild-channels .channel-text.selected {
+background: linear-gradient(45deg,rgba(255, 0, 0, 0.5) 20%,rgba(255, 246, 0, 0.5));
+
+/*
+.guild-channels .channel-text.selected {
+background: linear-gradient(90deg,rgba(255, 0, 0, 0.5) 20%,rgba(255, 246, 0, 0.5));
+}*/
